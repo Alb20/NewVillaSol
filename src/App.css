@@ -36,3 +36,63 @@
     transform: rotate(360deg);
   }
 }
+/* Carrusle Home  */
+.carru {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-right: 120px;
+  margin-left: 120px;
+}
+
+.caruIndex,
+.carruS1 {
+  width: 1050px;
+  height: 515px;
+}
+@media screen and (max-width: 100px){ 
+  .caruIndex,
+  .carruS1{
+    width: 70%;
+  }
+  
+}
+
+.carruSalon1 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+.ima-s1,
+.ima-s2 {
+  width: 430px;
+  height: 300px;
+  margin-right: 150px;
+  margin-left: 150px;
+}
+
+
+#imgs img {
+  width: 250px;
+  height: 200px;
+}
+
+#imgs img:hover {
+  transform: scale(1.5);
+}
+
+.imgsespS1 {
+  margin-top: 60px;
+}
+
+.text-button {
+  background-color: white;
+  color: black;
+  border-color: rgb(185, 162, 30);
+}
+
+.text-button:hover {
+  background-color: rgb(185, 162, 30);
+  border-color: white;
+}
