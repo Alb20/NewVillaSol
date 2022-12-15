@@ -86,13 +86,22 @@
   margin-top: 60px;
 }
 
-.text-button {
+.color-button {
   background-color: white;
   color: black;
   border-color: rgb(185, 162, 30);
 }
 
-.text-button:hover {
+.color-button:hover {
   background-color: rgb(185, 162, 30);
   border-color: white;
+}
+.direc{
+  text-align: center;
+}
+
+.espacioform {
+  margin-top: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
 }

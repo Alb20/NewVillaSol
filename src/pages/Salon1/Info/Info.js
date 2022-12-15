@@ -29,7 +29,7 @@ export class Info extends Component {
                         
                     </div>
                 </div>   */}
-                    <div className='d-grid gap-2 col-6 mx-auto' >
+                    <div className='btn btn-primary d-grid gap-2 col-6 mx-auto' >
                         <Link to='/paquetesS1'>
                             <button className="btn btn-primary d-grid gap-2 col-6 mx-auto "  > Paquetes </button>
                         </Link>

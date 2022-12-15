@@ -4,6 +4,7 @@ import Footer from '../../components/Fotter/Footer'
 import Carrusel from './Carrusel/Carrusel'
 import Info from './Info/Info'
 import Mapa from '../../components/Map/Mapa';
+import Direccion from '../../components/Map/Direccion'
 export class Salon1 extends Component {
   render() {
     return (
@@ -17,8 +18,9 @@ export class Salon1 extends Component {
                         <hr className="featurette-divider" />
                         <Info/>
                         <hr className="featurette-divider" />
-                        <Mapa/>
-
+                        <h2 className='direc'>Ubicación</h2>
+                            <Mapa/>
+                            <Direccion/>
                         <hr className="featurette-divider" />
     
                         </div>

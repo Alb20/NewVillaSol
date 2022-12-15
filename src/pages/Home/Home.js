@@ -5,6 +5,7 @@ import Carrusel from './Carrusel/Carrusel';
 import Info from './Detalles/Info';
 import Salones from './Detalles/Salones';
 import Mapa from '../../components/Map/Mapa';
+import Direccion from '../../components/Map/Direccion';
 const Home = () => {
     return (
     <div>
@@ -20,7 +21,9 @@ const Home = () => {
                         <hr className="featurette-divider" />
                         <Info/>
                         <hr className="featurette-divider" />
-                        <Mapa/>
+                            <h2 className='direc'>Ubicación</h2>
+                            <Mapa/>
+                            <Direccion/>
                         <hr className="featurette-divider" />
                         </div>
     
